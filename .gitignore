@@ -1,0 +1,23 @@
+# Node
+node_modules/
+dist/
+.npm/
+.npmrc
+
+# Build tools
+*.log
+*.tsbuildinfo
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Optional: test coverage
+coverage/
+
+# macOS metadata
+*.swp
+
+# Env/config
+.env*
