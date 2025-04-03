@@ -11,7 +11,7 @@ themes, typography, color palettes, and reusable components.
 
 This package ensures **visual consistency**, **development speed**,
 and **shared maintenance** across all frontend apps within the Murphy
-ecosystem.
+Charitable Foundation ecosystem.
 
 Use `mcf-kind-ui` to:
 
@@ -73,7 +73,7 @@ createRoot(document.getElementById("root")!).render(
 ```bash
 
 git clone https://github.com/murphycharitablefoundation/mcf-kind-ui.git
-cd mcf-ui
+cd mcf-kind-ui
 npm install
 
 ```
