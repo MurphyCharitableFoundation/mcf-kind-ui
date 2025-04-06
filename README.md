@@ -39,7 +39,7 @@ src/
 
 ```bash
 
-npm install @MurphyCharitableFoundation/mcf-kind-ui
+npm install @murphycharitablefoundation/mcf-kind-ui
 
 ```
 
@@ -52,7 +52,7 @@ npm install @MurphyCharitableFoundation/mcf-kind-ui
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { ThemeProvider, CssBaseline } from "@mui/material";
-import { theme, CustomButton } from "@MurphyCharitableFoundation/mcf-kind-ui";
+import { theme, CustomButton } from "@murphycharitablefoundation/mcf-kind-ui";
 import App from "./App";
 
 createRoot(document.getElementById("root")!).render(
@@ -95,7 +95,7 @@ npm link
 1. In your consuming project directory:
 ```bash
 
-npm link @MurphyCharitableFoundation/mcf-kind-ui
+npm link @murphycharitablefoundation/mcf-kind-ui
 
 ```
 
@@ -118,6 +118,6 @@ npm publish --registry=https://npm.pkg.github.com
 3. Update consuming projects:
 ```bash
 
-npm install @MurphyCharitableFoundation/mcf-kind-ui@latest
+npm install @murphycharitablefoundation/mcf-kind-ui@latest
 
 ```
