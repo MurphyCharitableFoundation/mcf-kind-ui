@@ -1,6 +1,6 @@
 {
-  "name": "@MurphyCharitableFoundation/mcf-kind-ui",
-  "version": "1.0.1",
+  "name": "@murphycharitablefoundation/mcf-kind-ui",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -29,5 +29,8 @@
     "@mui/material": "^7.0.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
+  },
+  "dependencies": {
+    "gatsby-plugin-web-font-loader": "^1.0.4"
   }
 }
