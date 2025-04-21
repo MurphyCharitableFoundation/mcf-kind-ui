@@ -1,0 +1,9 @@
+.storybook/
+**/*.stories.*
+**/*.test.*
+.storybook-cache/
+coverage/
+node_modules/
+dist/storybook/
+public/
+storybook-static/

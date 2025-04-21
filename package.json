@@ -4,11 +4,21 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "dist/index.js",
+      "import": "dist/index.mjs"
+    }
+  },
   "files": [
-    "dist"
+    "dist",
+    "src",
+    "README.md"
   ],
   "scripts": {
-    "build": "tsup"
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -18,8 +28,16 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@storybook/addon-essentials": "^8.6.12",
+    "@storybook/addon-interactions": "^8.6.12",
+    "@storybook/addon-onboarding": "^8.6.12",
+    "@storybook/blocks": "^8.6.12",
+    "@storybook/react": "^8.6.12",
+    "@storybook/react-vite": "^8.6.12",
+    "@storybook/test": "^8.6.12",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.1",
+    "storybook": "^8.6.12",
     "tsup": "^8.4.0",
     "typescript": "^5.8.2"
   },
@@ -31,6 +49,7 @@
     "react-dom": "^19.1.0"
   },
   "dependencies": {
-    "gatsby-plugin-web-font-loader": "^1.0.4"
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "swiper": "^11.2.6"
   }
 }
